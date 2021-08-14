@@ -1,0 +1,97 @@
+
+/*************logo do site e links do logo*************/
+.logo {
+    padding: 20px;
+    margin: 0px auto;
+    background: orange;
+    text-align: center;
+    font-size: 40px;
+}
+.titulo{
+    color: white;
+}
+h1 {
+    display: inline;
+}
+
+
+.links { /*configuração básica*/
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a {
+
+}
+a:link { /*links não visitados*/
+    color: white;
+}
+
+a:hover { /*Passar o mouse no link*/
+    color: orange;
+    background: white;
+}
+
+/************fim do logo *************/
+body {
+    margin: 0px auto;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/************area principal************/
+
+
+.titulo-principal {
+    color: orange;
+}
+
+h3 {
+    display: inline;
+}
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens {  /*total de 900px em 920px, os 20px sao para espaçamento lateral*/
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodapé {
+    padding: 15px;
+    text-align: center;
+    clear: both;
+    color: white;
+    background: grey;
+}
+
+#saiba-mais a:hover{
+    color: orange;
+    text-decoration: none;
+    
+    
+}
+.cla{
+    color: orangered;
+    text-decoration: none;
+}
+
+/*********postagem lateral***********/
+.titulo-lateral{
+    background: lightgray;
+    color: #424242;
+    padding: 15px 5px;
+    margin: 1px;
+}
+
+
+
